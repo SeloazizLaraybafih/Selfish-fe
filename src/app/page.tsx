@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import CardsSwiper from '@/components/carousel/CardsSwiper'
 import MasterCarousel from '@/components/carousel/Master'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         {' '}
         <Header></Header>
         <MasterCarousel></MasterCarousel>
+        <CardsSwiper></CardsSwiper>
       </div>
     </>
   )

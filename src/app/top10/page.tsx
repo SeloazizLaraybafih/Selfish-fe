@@ -1,3 +1,5 @@
+import RegularCard from '@/components/cards/Regular'
+
 export default function Home() {
-  return <div className='bg-black'>testes2121</div>
+  return <RegularCard></RegularCard>
 }
